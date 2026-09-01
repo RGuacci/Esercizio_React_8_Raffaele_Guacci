@@ -1,0 +1,38 @@
+.loading-data {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.loading-data h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.loading-data button {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
