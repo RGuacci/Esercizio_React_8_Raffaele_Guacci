@@ -1,7 +1,5 @@
 export default function Button( {onClick} ){
     return (
-        <>
-         <button type="button" onClick={onClick}>Premi qui</button>
-        </>
+      <button type="button" onClick={onClick}>Premi qui</button>
     )
 }
